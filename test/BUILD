@@ -30,7 +30,7 @@ cc_library(
     ],
     visibility = ["//visibility:public"],
     deps = [
-        "//external:gtest",
+        "@gtest//:gtest",
         "//nbd/src:curvenbd",
     ],
 )
