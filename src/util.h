@@ -25,6 +25,7 @@
 #ifndef NBD_SRC_UTIL_H_
 #define NBD_SRC_UTIL_H_
 
+#include <cstdint>
 #include <string>
 #include <vector>
 #include "nbd/src/define.h"

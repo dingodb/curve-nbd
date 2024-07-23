@@ -83,7 +83,7 @@ class ImageInstance {
      * @return 获取成功返回文件大小（正值）
      *         获取失败返回错误码（负值）
      */
-    virtual int64_t GetImageSize() const;
+    virtual int64_t GetImageSize();
 
     /**
      * @brief Get image's block size
