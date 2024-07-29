@@ -36,9 +36,9 @@ cc_library(
     ],
     visibility = ["//visibility:public"],
     deps = [
-        "//external:gflags",
-        "//external:glog",
         "//nebd/src/part1:nebdclient",
+        "@gflags//:gflags",
+        "@glog//:glog",
     ],
 )
 
